@@ -88,7 +88,7 @@ let(:my_post) { Post.create!(title: RandomData.random_sentence, body: RandomData
   end
 
   describe "PUT update" do
-    it "ipdates post with expected attributes" do
+    it "updates post with expected attributes" do
       new_title = RandomData.random_sentence
       new_body = RandomData.random_paragraph
 
@@ -121,5 +121,5 @@ let(:my_post) { Post.create!(title: RandomData.random_sentence, body: RandomData
       expect(response).to redirect_to posts_path
     end
   end
-  
+
 end
