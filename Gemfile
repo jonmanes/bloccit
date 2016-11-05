@@ -28,3 +28,5 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Gem for bootsrap
 gem 'bootstrap-sass'
+
+gem 'bcrypt'
