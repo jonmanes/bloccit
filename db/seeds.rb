@@ -36,6 +36,7 @@ end
 
 user = User.first
 user.update_attributes!(
+  name: 'Jon',
   email: 'jon.manes@gmail.com',
   password: 'test1234'
 )
