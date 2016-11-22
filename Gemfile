@@ -28,5 +28,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Gem for bootsrap
 gem 'bootstrap-sass'
+# Gem for Figaro
+gem 'figaro', '1.0'
 
 gem 'bcrypt'
